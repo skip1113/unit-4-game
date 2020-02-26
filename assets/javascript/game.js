@@ -57,7 +57,6 @@ function gameReset() {
             $("#loser").text(losses);
             // lossesText.textContent = losses;
             gameReset();
-            //.text can change/update your html with id's try that instead of .textContent
         }
     }) 
     $(".crystal-two").on("click", function() {
@@ -74,6 +73,7 @@ function gameReset() {
             
         }
     })
+    
     $(".crystal-three").on("click", function() {
         counter += purpCry;
         $("#score").text(counter);
