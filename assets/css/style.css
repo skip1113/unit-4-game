@@ -49,7 +49,8 @@ h1{
     color: white;
     font-size: 20px;
     margin-bottom: 10px;
-    
+    margin-left: 45%;
+    margin-top: -220px;
 }
 #counter-score{
     width: 20%;
@@ -58,6 +59,7 @@ h1{
     color: white;
     font-size: 40px;
     padding-bottom: 2px;
+    margin-left: 45%;
 }
 
 @media screen and (max-width: 980px) {
