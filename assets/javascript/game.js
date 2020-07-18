@@ -1,30 +1,30 @@
  $(document).ready(() => {
     //variable to hold the shown number
-    var compNumber = "";
-    //Adding global counter variable
-    var counter = 0;
+    let compNumber = "";
+    //Adding global counter letiable
+    let counter = 0;
     //loop to generate the shown number between 19-120.
-    var shownNum = Math.floor(19 + Math.random() * 102);
+    let shownNum = Math.floor(19 + Math.random() * 102);
     //Display the generated number on the page
     $("#totalNum").html(shownNum);
-    //variables for wins and losses.
-    var wins = 0;
-    var losses = 0;
+    //letiables for wins and losses.
+    let wins = 0;
+    let losses = 0;
     //array for gems 1-12
-    var gemArray = "";
+    let gemArray = "";
     //adding text content for score, wins and losses
     scoreText = document.getElementById("score");
     winsText = document.getElementById("winner");
     lossesText = document.getElementById("loser");
-    //variables for html crystals
-        var crystalOne = $(".crystal-one");
-        var crystalTwo = $(".crystal-two");
-        var crystalThree = $(".crystal-three");
-        var crystalFour = $(".crystal-four");
-        var greenCry = Math.floor(Math.random() * 12) + 1;
-        var pinkCry = Math.floor(Math.random() * 12) + 1;
-        var purpCry = Math.floor(Math.random() * 12) + 1;
-        var blueCry = Math.floor(Math.random() * 12) + 1;
+    //letiables for html crystals
+        let crystalOne = $(".crystal-one");
+        let crystalTwo = $(".crystal-two");
+        let crystalThree = $(".crystal-three");
+        let crystalFour = $(".crystal-four");
+        let greenCry = Math.floor(Math.random() * 12) + 1;
+        let pinkCry = Math.floor(Math.random() * 12) + 1;
+        let purpCry = Math.floor(Math.random() * 12) + 1;
+        let blueCry = Math.floor(Math.random() * 12) + 1;
     //win & lose functions to add and reset
     function winner() {
         wins++;
