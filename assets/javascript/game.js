@@ -1,6 +1,4 @@
  $(document).ready(() => {
-    //variable to hold the shown number
-    let compNumber = "";
     //Adding global counter letiable
     let counter = 0;
     //loop to generate the shown number between 19-120.
@@ -10,17 +8,11 @@
     //letiables for wins and losses.
     let wins = 0;
     let losses = 0;
-    //array for gems 1-12
-    let gemArray = "";
     //adding text content for score, wins and losses
     scoreText = document.getElementById("score");
     winsText = document.getElementById("winner");
     lossesText = document.getElementById("loser");
     //letiables for html crystals
-        let crystalOne = $(".crystal-one");
-        let crystalTwo = $(".crystal-two");
-        let crystalThree = $(".crystal-three");
-        let crystalFour = $(".crystal-four");
         let greenCry = Math.floor(Math.random() * 12) + 1;
         let pinkCry = Math.floor(Math.random() * 12) + 1;
         let purpCry = Math.floor(Math.random() * 12) + 1;

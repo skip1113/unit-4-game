@@ -10,3 +10,5 @@
 
 ##### This is a Javascript/JQuery (Mainly JQuery) game that is allowed to be played in your browser. Your controls are on your mouse.
 ##### Some Functions in this game are on click functions, updating HTML, random number generators, function resets, and if else conditional statements.
+
+![](/assets/images/home-img.png)
