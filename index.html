@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,55 +11,56 @@
 </head>
 
 <body>
-    
+
     <div class="header">
-        <h1 id=>Crystal collector!</h1>            
-    </div>                        
-            
+        <h1 id=>Crystal collector!</h1>
+    </div>
+
     <div id="main-container" class="instruction">
         <h3>Instructions:</h3>
         <p>You will be given a random number at the start of the game.</p>
-        <p>There are for crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total score to the random number given. You lose the game if your total score goes above the random number.</p>
+        <p>There are for crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.</p>
+        <p>You win the game by matching your total score to the random number given. You lose the game if your total
+            score goes above the random number.</p>
         <p>The value of each crystal is hidden from you until you click on it.</p>
         <p>Each time the game starts, the game will change the value of each crystal.</p>
         <h4>Good luck!</h4>
     </div>
-            
 
-            <div id="middle" class="row">
-                <div id="computer-num" class="col-lg-4">
-                    <div id="totalNum">
+    <div id="middle" class="row">
+        <div id="computer-num" class="col-lg-4">
+            <div id="totalNum">
 
-                    </div>
-                </div>
-                <div id="winslosses" class="col-lg-2">
-                    <div id="wins-losses" class="col-lg-2">
-                        <h3>Wins:
-                            <span id="winner">0</span>
-                            <br></br>
-                            Losses:
-                            <span id="loser">0</span>
-                        </h3>
-                    </div>
-                </div>
-                <div id="scoring" class="col-lg-6">
-                    <h4>Your total score is:</h4>
-                </div>
-                <div id="counter-score" class="col-lg-6">
-                    <p id="score">0</p>
-                </div>
             </div>
-            <br>
-            <div id="gem-gif" class="row">
-                <div class="col-lg-8">
-                    <img class="crystal-one" data-paneid="panel1" src="assets/images/crystal-1.gif" height="140" width="140">
-                    <img class="crystal-two" data-paneid="panel2" src="assets/images/crystal-2.gif" height="140" width="140">
-                    <img class="crystal-three" data-paneid="panel3" src="assets/images/crystal-3.gif" height="140" width="140">
-                    <img class="crystal-four" data-paneid="panel4" src="assets/images/crystal-4.gif" height="140" width="140">
-                </div>
+        </div>
+        <div id="winslosses" class="col-lg-2">
+            <div id="wins-losses" class="col-lg-2">
+                <h3>Wins:
+                    <span id="winner">0</span>
+                    <br></br>
+                    Losses:
+                    <span id="loser">0</span>
+                </h3>
             </div>
-        <script src="assets/javascript/game.js"></script>
-    
+        </div>
+        <div id="scoring" class="col-lg-6">
+            <h4>Your total score is:</h4>
+        </div>
+        <div id="counter-score" class="col-lg-6">
+            <p id="score">0</p>
+        </div>
+    </div>
+    <br>
+    <div id="gem-gif" class="row">
+        <div class="col-lg-8">
+            <img class="crystal-one" data-paneid="panel1" src="assets/images/crystal-1.gif" height="140" width="140">
+            <img class="crystal-two" data-paneid="panel2" src="assets/images/crystal-2.gif" height="140" width="140">
+            <img class="crystal-three" data-paneid="panel3" src="assets/images/crystal-3.gif" height="140" width="140">
+            <img class="crystal-four" data-paneid="panel4" src="assets/images/crystal-4.gif" height="140" width="140">
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+
 </body>
 </html>

@@ -12,29 +12,30 @@ h1{
    border-radius: 5px;
    border: 2px solid black;
 }
-/* .middle {
-    margin-left: 28%;
-} */
+
 #main-container{
-    padding: 30px;
+    padding: 20px;
     width: 40%;
     background-color: tan;
     text-align: center;
     margin-left: 28%;
+    padding-bottom: 1px;
+    margin-top: -15px;
 }
 #computer-num{
     width: 10%;
-    padding: 10px 45px 68px 2px;
-    background-color: cyan;
-    font-size: 40px;
+    padding: 10px 27px 20px 20px;
+    background-color: rgb(80, 177, 177);
+    font-size: 50px;
     display: inline-block;
-    /* float: left; */
+    text-align: center;
     margin-left: 28%;
+    margin-bottom: 10px;
 }
 #wins-losses{
     width: 5%;
-    padding: 10px 45px 12px 2px;
-    background-color: green;
+    padding: 10px 120px 12px 2px;
+    background-color: rgb(21, 155, 21);
     display: inline-block;
     margin-left: 28%;
 }
@@ -45,21 +46,22 @@ h1{
 #scoring{
     width: 20%;
     padding: 1px 5px;
-    background-color:  blue;
+    background-color:  rgb(78, 78, 255);
     color: white;
     font-size: 20px;
     margin-bottom: 10px;
-    margin-left: 45%;
-    margin-top: -220px;
+    margin-left: 50%;
+    margin-top: -223px;
 }
 #counter-score{
     width: 20%;
-    padding: 5px 5px;
-    background-color: blue;
+    padding: 1px 1px;
+    background-color: rgb(78, 78, 241);
     color: white;
-    font-size: 40px;
-    padding-bottom: 2px;
-    margin-left: 45%;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 50%;
+    padding-right: 8px;
 }
 
 @media screen and (max-width: 980px) {
